@@ -15,7 +15,7 @@ public class Main{
             faixa = "Acima do peso";
         } else if (imc >= 18.5) {
             faixa = "com Peso Normal";
-        } else if (imc < 18.5) {
+        } else if (imc <= 18.5) {
             faixa = "Abaixo do Peso";
         } else {
             faixa = "Entrada inválida";
