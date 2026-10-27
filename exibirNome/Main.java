@@ -5,7 +5,7 @@ public class Main{
         Scanner sc = new Scanner(System.in);
         System.out.print("Insira o seu nome: ");
         String nome = sc.nextLine();
-
+        sc.close();
         System.out.println("\nO seu nome é: " + nome);
     }
 }

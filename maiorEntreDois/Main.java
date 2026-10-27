@@ -7,6 +7,7 @@ public class Main{
         double num1 = sc.nextDouble();
         System.out.print("\nInsira o segundo numero: ");
         double num2 = sc.nextDouble();
+        sc.close();
 
         if (num1 == num2) {
             System.out.println("Ambos os numeros são iguais");
