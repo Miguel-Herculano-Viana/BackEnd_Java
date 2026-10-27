@@ -16,7 +16,7 @@ public class Main{
         } else if (imc >= 18.5) {
             faixa = "com Peso Normal";
         } else {
-            faixa = "Entrada inválida";
+            faixa = "Abaixo do Peso";
         }
 
         return(faixa);
@@ -37,7 +37,7 @@ public class Main{
         } else {
             imc = calcularIMC(peso, altura);
             String faixa = faixaIMC(imc);
-            System.out.printf("O seu IMC é de: %.2f, e você está %s", imc, faixa);
+            System.out.printf("O seu IMC é de: %.2f e você está %s", imc, faixa);
         }
     }
 }

@@ -7,7 +7,7 @@ public class Main{
         int idade = sc.nextInt();
         sc.close();
 
-        if (idade > 18) {
+        if (idade >= 18) {
             System.out.println("\nVocê é maior de idade");
         } else {
             System.out.println("\nVocê é menor de idade");
